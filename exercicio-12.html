@@ -14,48 +14,65 @@
 <body>
     <header class="container">
         <div class="row">
-            <button class="btn"><i class="bi bi-list"></i></button>
-            <h3>Serviços Contratados</h3>
+            <div class="col-1"><button class="btn btn-outline-secondary"><i class="bi bi-list"></i></button></div>
+            <div class="col-11">
+                <h3>Serviços Contratados</h3>
+            </div>
         </div>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-4">Item</div>
-                <div class="col-4">Valor</div>
-                <div class="col-4">INFO</div>
+                <div class="col-5">Item</div>
+                <div class="col-6">Valor</div>
+                <div class="col-1">INFO</div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-4">Mercado</div>
-                <div class="col-4">R$200,00</div>
-                <div class="col-4"><button type="button" class="btn btn-light"><i class="bi bi-cart"></i></button></div>
+            <div class="row align-items-center row-item">
+                <div class="col-5">Mercado</div>
+                <div class="col-6">R$200,00</div>
+                <div class="col-1"><button type="button" class="btn btn-light btn-circle"><i
+                            class="bi bi-cart"></i></button>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-4">Cinema</div>
-                <div class="col-4">R$50,00</div>
-                <div class="col-4"><button type="button" class="btn btn-light"><i class="bi bi-shop"></i></button></div>
+            <div class="row align-items-center row-item">
+                <div class="col-5">Cinema</div>
+                <div class="col-6">R$50,00</div>
+                <div class="col-1"><button type="button" class="btn btn-light btn-circle"><i
+                            class="bi bi-shop"></i></button>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-4">Metro</div>
-                <div class="col-4">R$100,00</div>
-                <div class="col-4"><button type="button" class="btn btn-light"><i
-                            class="bi bi-train-front"></i></button></div>
+            <div class="row align-items-center row-item">
+                <div class="col-5">Metro</div>
+                <div class="col-6">R$100,00</div>
+                <div class="col-1"><button type="button" class="btn btn-light btn-circle"><i
+                            class="bi bi-train-front"></i></button>
+                </div>
             </div>
         </div>
         </div>
         <div class="container">
-            <button type="button"><i class="bi bi-plus"></i></button>
+            <div class="row justify-content-end">
+                <div class="col-1"><button type="button" class="btn btn-outline-secondary btn-circle"><i
+                            class="bi bi-plus"></i></button></div>
+            </div>
         </div>
         </div>
-        <div class="circulo">40% a menos que o mês anterior</div>
+        <div class="circulo-wrap">
+            <div class="circulo">40% a menos que o mês anterior</div>
+        </div>
     </main>
-    <footer>
-        <nav>
-            <button type="button"><i class="bi bi-arrow-right"></i></button>
-        </nav>
+    <footer class="container">
+        <ul class="meses">
+            <li class="mes mes-1">Setembro</li>
+            <li class="mes mes-2">Outubro</li>
+            <li class="mes mes-3">Novembro</li>
+        </ul>
+        <div class="seta-nav">
+            <button type="button" class="btn btn-secondary"><i class="bi bi-arrow-right"></i></button>
+        </div>
     </footer>
 </body>
 
